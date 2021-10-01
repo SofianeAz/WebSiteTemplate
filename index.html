@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>WEBIGAMI CARS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -30,6 +30,10 @@ body, html {
   <div class="w3-bar w3-black w3-card" id="myNavbar">
     <div class="w3-container w3-black">
     <a href="#home" class="w3-bar-item w3-button w3-wide"><img class="w3-stretch" src="img/logoair.png" style="height: 75px; width: 100px;"/></a>
+      <div class="w3-black w3-center" style="display:flex; justify-content: center; align-self: center;">
+        <a href="userpanel.html" class="w3-bar-item w3-button">Login</a>
+        <a href="userpanel.html" class="w3-bar-item w3-button">Register an account</a>
+      </div>
   
     <!-- Right-sided navbar links -->
     <div class="w3-right w3-hide-small">
@@ -42,14 +46,17 @@ body, html {
     </div>
   </div>
 </div>
+<br/>
+  <div class="w3-container w3-black w3-center" id="top">
+    <div class="w3-box"><img id="gtr" src="img/GTR.jpeg" style="height: 90vh; width: 100vw;"/></div>
+    <div class="w3-display-left w3-container" style="margin-left:100px;"><a href="#about" class="w3-bar-item w3-button">Learn more and start today</a></div>
   </div>
-  </div>
-      <div class="w3-box"><img id="gtr" src="img/GTR.jpeg" style="height: 90vh; width: 100vw; margin-left: -16px;" /></div>
-      <div class="w3-container w3-black">
-        <div class="w3-container w3-black w3-center">
-            <h1>ABOUT THE COMPANY</h1>
+      <div class="w3-container w3-black" id="about" >
+        <div class="w3-container w3-black w3-center" style="margin-top:100px; margin-bottom:100px;">
+                      <h1>ABOUT THE COMPANY</h1>
             <p>Key features of the company</p>
         </div>
+      </DIV>
         <div class=" w3-row w3-black">
             <div class=" w3-quarter w3-card  w3-gray w3-center">
               <i></i>
@@ -87,10 +94,13 @@ body, html {
         </div>
         <div class="w3-half w3-gray"></div>
       </div>
-      <div class="w3-container w3-black w3-center">
-            <h2>THE TEAM</h2>
+      <div class="w3-container w3-black w3-center" id="team">
+        <div class="w3-container w3-black w3-center" style="margin-top:100px; margin-bottom:100px;"  >
+          <h2>THE TEAM</h2>
             <p>The ones who run this company</p>
+          </div>
       </div>
+    </div>
       <div class="w3-container w3-row w3-black">
             <div class="w3-quarter w3-card w3-gray w3-padding">
                 <h2> Sofiane Azougar</h2>
@@ -143,11 +153,13 @@ body, html {
               <p>Meetings</p>
           </div>
       </div>
-    <div class="w3-container w3-black w3-center w3-padding">
+    <div class="w3-container w3-black w3-center" id="work">
+      <div class="w3-container w3-black w3-center w3-padding" style="margin-top:100px; margin-bottom:100px;">
             <h2>OUR WORK</h2>
             <p>What we've done so far.</p>
       </div>
-      <div class="w3-row w3-black w3-center">
+    </div>
+      <div class="w3-row w3-black w3-center" style="height:50vh;">
         <div class="w3-container  w3-black">
             <div class="w3-card w3-third">
                 <img src="img/mini/gtr1.png" />
@@ -171,7 +183,7 @@ body, html {
             </div>                
         </div>
       </div>
-    <div class="w3-container w3-row w3-black"style="height:50vh;" >
+    <div class="w3-container w3-row w3-black"style="height:70vh;" >
                   <div class="w3-box w3-half w3-center w3-gray w3-padding" style="height:40vh;">            
                             <h2> Our Skills.</h2>
                           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -182,19 +194,19 @@ body, html {
                           tempor incididunt ut labore et dolore.</p>
                    </div>
                    <div class="w3-box w3-half w3-center w3-gray" style="height:40vh;">    
-                                            <div class="w3-box w3-gray w3-round">
+                                            <div class="w3-gray w3-round">
                                                       <i></i> <h5> Japanese Vehicles</h5>
                                                   <div class="w3-box w3-round w3-white">
                                                       <div class="w3-box w3-round w3-blue" style="width:95%">95%</div>
                                                   </div>
                                             </div>
-                                            <div class="w3-box w3-gray w3-round">
+                                            <div class="w3-gray w3-round">
                                                       <i></i> <h5> European Vehicles </h5>
                                                   <div class="w3-box w3-round w3-white">
                                                         <div class="w3-box w3-round w3-blue" style="width:65%">65%</div>
                                                   </div>
                                             </div>
-                                            <div class="w3-box w3-gray w3-round">
+                                            <div class="w3-gray w3-round">
                                                       <i></i> <h5> Muscle Cars </h5>
                                                   <div class="w3-box w3-round w3-white">
                                                         <div class="w3-box w3-round w3-blue" style="width:80%">80%</div>
@@ -204,13 +216,13 @@ body, html {
 
                     </div>          
         </div>
-
-      <div class="w3-container w3-row w3-black w3-center"> 
+    <div class="w3-container w3-black w3-center" id="pricing">
+      <div class="w3-container w3-row w3-black w3-center" style="height:20vh; margin-top:100px; margin-bottom:100px;"> 
         <h1>Pricing</h1>
         <p>Choose a pricing plan that fits your needs.</p>
       </div>                   
-      <div class="w3-box">
-          <div class="w3-container w3-row w3-padding w3-black w3-padding">
+      <div class="w3-box w3-center" style="margin-bottom: 100px;" >
+          <div class="w3-container w3-row w3-padding w3-black">
                 <div class="w3-third w3-card-4 w3-padding">
                         <header class="w3-container w3-gray w3-center">
                               <h1>BASIC</h1>
@@ -229,7 +241,7 @@ body, html {
                 </div>
                 <div class="w3-third w3-card-4 w3-padding">
                         <header class="w3-container w3-red w3-center">
-                              <h1>Header</h1>
+                              <h1>SERVICE+</h1>
                         </header>
                         <div class="w3-container w3-white w3-center">
                              <p>Lorem ipsum...</p>
@@ -246,7 +258,7 @@ body, html {
                 </div>
                 <div class="w3-third w3-card-4 w3-padding">
                         <header class="w3-container w3-yellow w3-center">
-                              <h1>Header</h1>
+                              <h1>PREMIUM</h1>
                         </header>
                         <div class="w3-container w3-white w3-center">
                              <p>Lorem ipsum...</p>
@@ -263,46 +275,43 @@ body, html {
           </div>
         </div>
       </div>
-      <div class="w3-container w3-gray">
-                <div class="w3-box w3-center">
-                  <h2>CONTACT</h2>
-                  <p>Lets get in touch. Send us a message.</p>
-                </div>
-                <div class="w3-half w3-margin">
-                       <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Chicago, US.</p>
-                      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
-                      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: mail@mail.com</p>
-                </div>
-              </div>
-      </div>
-      <div class="w3-container w3-gray w3-padding">
+      <div class="w3-container w3-gray w3-center" id="contact">
+            <div class="w3-container w3-gray">
+                        <div class="w3-box w3-center" style="margin-top: 120px;">
+                          <h2>CONTACT</h2>
+                          <p>Lets get in touch. Send us a message.</p>
+                        </div>
+                          <div class="w3-half w3-margin">
+                                 <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i>Chicago, US.</p>
+                                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+                                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></i> Email: mail@mail.com</p>
+                          </div>
+            </div>
+      </div>    
+        <div class="w3-container w3-gray">
                   <form class="w3-container">
-                        <div class = "w3-group">
-                            <label class="w3-label">User Name</label><input class="w3-input" type="objet" style="width:70%" required>
-                            <label class="w3-label">Email</label><input class="w3-input" type="Email" style="width:70%" required>
-                            <label class="w3-label">Subject</label><br/>
-                            <select class="w3-select"style="width:70%" required>
-                                        <option>Choose an option</option>
-                                        <option>My car got STOLEN! HALP!</option>
-                                        <option>Los Santos Customs.</option>  
-                                        <option>Vice City is my City.</otion>
-                            </select>
-                                                                          <br/>
-                            <label class="w3-label">Message</label><input class="w3-input" type="text" style="width:70%" required>
-
-                        </div>  
-                        <div class="w3-button">
-                          <button class="w3-btn w3-black w3-center"><i class=""></i>SEND MESSAGE</button>
-                        </div>                        
-                    
+                                    <div class = "w3-group">
+                                        <label class="w3-label">User Name</label><input class="w3-input" type="objet" style="width:70%" required>
+                                        <label class="w3-label">Email</label><input class="w3-input" type="Email" style="width:70%" required>
+                                        <label class="w3-label">Subject</label><br/>
+                                        <select class="w3-select"style="width:70%" required>
+                                                    <option>Choose an option</option>
+                                                    <option>My car got STOLEN! HALP!</option>
+                                                    <option>Los Santos Customs.</option>  
+                                                    <option>Vice City is my City.</otion>
+                                        </select>
+                                                                                      <br/>
+                                        <label class="w3-label">Message</label><input class="w3-input" type="text" style="width:70%" required>
+            
+                                    </div>  
+                          <div class="w3-button">
+                                <button class="w3-btn w3-black w3-center"><i class=""></i>SEND MESSAGE</button>
+                          </div>                    
                   </form>
-                 
-                </div>
-      </div>
-
+        </div>
 
       <footer class="w3-container w3-center w3-black w3-padding">
-              <button class="w3-btn w3-gray w3-center w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To The Top</button>
+              <a href="#top"><button class="w3-btn w3-gray w3-center w3-margin w3-round"><i class="fa fa-arrow-up w3-margin-right"></i>To The Top</button></a>
               <section class="w3-xlarge w3-section">
                       <i class="fa fa-facebook-official w3-hover-opacity"></i>
                       <i class="fa fa-instagram w3-hover-opacity"></i>
